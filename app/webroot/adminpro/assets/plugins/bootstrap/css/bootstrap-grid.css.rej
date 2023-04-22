@@ -1,0 +1,9 @@
+diff a/assets/plugins/bootstrap/css/bootstrap-grid.css b/assets/plugins/bootstrap/css/bootstrap-grid.css	(rejected hunks)
+@@ -60,7 +60,6 @@
+ }
+ 
+ .row {
+-  display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;

@@ -1,0 +1,6 @@
+create table producto (
+	id int not null auto_increment,
+	nombre vachar (255),
+	precio number(50)
+	created datatime default now()
+)

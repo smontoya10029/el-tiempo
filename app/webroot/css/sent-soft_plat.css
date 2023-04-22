@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    background: url(../img/font_soft_plat.jpg)no-repeat center center !important;
+    background-size:cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+
+.logo{
+    width: 250px;
+    height: 100px;
+    margin-right: 50px !important;
+    margin-bottom: 50px !important;
+    background: url(../img/logo1.png)no-repeat center center;
+    background-size:contain;
+}
+
+.login{
+    width: 400px;
+    height: 550px;
+    background: url(../img/fondo-blanco.jpg)no-repeat center center;
+    background-size:cover;
+    border-radius:10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icono{
+    width: 300px;
+    height: 400px;
+    background: url(../img/soft_tech.png)no-repeat center center;
+    background-size:contain;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -90%);
+    -webkit-transform: translate(-50%, -90%);
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.form_small{
+    width: 100%;
+    height: 50px;
+    border: 1px rgba(47, 47, 47, 1) solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding:10px;
+    font-family: 'Quicksand';
+}
+
+.confirmar{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(62, 31, 82, 1);
+    padding:10px;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    color: rgba(236, 191, 0, 1);
+    font-size: 18px;
+}
+
+.cod{
+    width: 90%;
+
+}
+
+.cod a{
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(62, 31, 82, 1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.olv{
+    width: 90%;
+
+}
+
+.olv a{
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgba(62, 31, 82, 1);
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .contenedor{
+        width: 100%;
+        height: 100%;
+        background: url(../img/font_soft_plat.jpg)no-repeat center center;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+    }
+    
+    .logo{
+        width: 250px;
+        height: 80px;
+        margin-right: 0 !important;
+        margin-bottom: 20px !important;
+        background: url(../img/logo1.png)no-repeat center center;
+        background-size:contain;
+    }
+
+    .login{
+        width: 300px;
+        height: 450px;
+        background: url(../img/fondo-blanco.jpg)no-repeat center center;
+        background-size:cover;
+        border-radius:10px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .icono{
+        width: 250px;
+        height: 400px;
+        background: url(../img/soft_tech.png)no-repeat center center;
+        background-size:contain;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -83%);
+        -webkit-transform: translate(-50%, -83%);
+    }
+    
+    .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .form_small{
+        width: 100%;
+        height: 40px;
+        border: 1px rgba(47, 47, 47, 1) solid;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding:10px;
+        font-family: 'Quicksand';
+        font-size: 15px;
+    }
+    
+    .confirmar{
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background: rgba(62, 31, 82, 1);
+        padding:5px;
+        font-family: 'Quicksand';
+        font-weight: bold;
+        color: rgba(236, 191, 0, 1);
+        font-size: 18px;
+    }
+    
+    .cod{
+        width: 90%;
+    
+    }
+    
+    .cod a{
+        font-family: 'Quicksand';
+        font-weight: bold;
+        font-size: 12px;
+        text-decoration: none;
+        color: rgba(62, 31, 82, 1);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .olv{
+        width: 90%;
+    
+    }
+    
+    .olv a{
+        font-family: 'Quicksand';
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: rgba(62, 31, 82, 1);
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+  }
